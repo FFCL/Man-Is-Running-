@@ -17,7 +17,7 @@ namespace Man_Is_Running_
             {
                 string input = Console.ReadLine();
                 int dmg = Convert.ToInt32(input);
-                Console.WriteLine("你的攻击对怪兽造成了{0}点伤害", dmg);
+                Console.WriteLine("你的攻击对怪兽造成了{0}点伤害!", dmg);
                 t = 1;
                 System.Threading.Thread.Sleep(000);
                 EndingCheck();
